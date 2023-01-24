@@ -4,7 +4,7 @@
  
 This document outlines the data management and release policy for the collaborative research centre (CRC) “CRC1526”. The goal of this document is to provide instructions on how data is to be stored, described, accessed and disseminated.  
  
-Within this document, the term “data” is primarily used to refer to patient data  as well as their corresponding sequencing data (both genome and RNA level) generated as part of research projects within the CRC. Additional data types may be adequately covered by the general instructions below. If existing rules seem unsuitable for a given type of data, amendments to this document under Section 3 shall be made in dialogue with the INF project.   
+Within this document, the term “data” is primarily used to refer to sequencing data (both genome and RNA level) generated as part of research projects within the CRC. This data may come from model organisms or patients (see #Clinical-Data). Additional data types may be adequately covered by the general instructions below. If existing rules seem unsuitable for a given type of data, amendments to this document under Section 3 shall be made in dialogue with the INF project.   
  
 ## Roles and responsibilities 
  
@@ -22,7 +22,7 @@ The INF project is responsible for implementing data life cycles and workflows. 
  
 ### Data producers / PIs 
  
-Principal investigators within the CRC are responsible for communicating their data generation plans to the INF project to ensure that all data can be captured in the data management system of the CRU.  
+Principal investigators within the CRC are responsible for communicating their data generation plans to the INF project to ensure that all data can be captured in the data management system of the CRC.  
  
 The INF project, where possible, shall be designated a data recipient for all sequencing projects. 
  
@@ -38,7 +38,7 @@ All users of the data management system must comply with data access and release
  
 ### iRODS archive storage 
  
-All raw (sequencing) data (both genome and RNA) generated within the CRC (i.e. financed through CRC funds) must be deposited in the data management solution of the “Pantau-Omics”.  
+All raw (sequencing) data (both genome and RNA) generated within the CRC (i.e. financed through CRC funds) must be deposited in the data management solution “Pantau-Omics”.  
  
 If sequencing is not coordinated with the INF project for automatic data delivery/archiving, it is the users’ responsibility to ensure that data is deposited with all relevant metadata (Section 3.2). 
  
@@ -66,7 +66,7 @@ These specifications are based on the EBI MIxS standard (http://www.ebi.ac.uk/en
 
 ### Clinical data
 
-Clinical (patient) data will be managed by the Z1 project and is not covered by this data policy. All digital data subject to this data policy shall be anonymised and include no metadata directly enabling identification of individuals or allow linking FROM the raw data to patient data. Specifically, no identifying information, such as a patient ID or name, shall be stored.  Connecting clinical data with digital/omics data shall only be possible through the Z1 project - using information about the relationship of probant identities (Z1) and e.g., sequencing library identifiers (INF) or internally agreed-upon pseudonyms.  
+Clinical (patient) data will be managed by the Z1 project and is not covered by this data policy. All digital data subject to this data policy shall be anonymised and must not include metadata directly enabling identification of individuals or allow linking FROM the raw data to patient data. Specifically, no identifying information, such as a patient ID or name, shall be stored.  Connecting clinical data with digital/omics data shall only be possible through the Z1 project - using information about the relationship of probant identities (Z1) and e.g., sequencing library identifiers (INF) or internally agreed-upon pseudonyms.  
 
 ## Data types 
  
@@ -90,7 +90,7 @@ Genotyping data are the second primary data type generated within CRC1526. Genot
 
 ### Analytical results (generic) 
  
-Finalised analyses (tabular counts or similar) may only be stored in the “P” if the analysis process is included with the data so that any user may be able to accurately reproduce the workflow. Analysis and the “analysis trace” shall be submitted together as tar archive and must be annotated with appropriate metadata. Specifically, it must be clear which raw data was used in the analysis by reference to the sample or library name(s) within Pantau-Omics.  
+Finalised analyses (tabular counts or similar) may only be stored in “Pantau-Omics” if the analysis process is included with the data so that any user may be able to accurately reproduce the workflow. Analysis and the “analysis trace” shall be submitted together as tar archive and must be annotated with appropriate metadata. Specifically, it must be clear which raw data was used in the analysis by reference to the sample or library name(s) within "Pantau-Omics".  
  
 The format of the analytical result must be discussed with the INF project prior to submission to help identify common standards and develop best practices.  
  
