@@ -1,4 +1,4 @@
-![](images/logo.png)
+![](../images/logo.png)
 # CRC1526 Metadata standards
 
 ## NGS raw data
