@@ -3,9 +3,9 @@
 
 Metadata defines the types of information that describe the technical and/or experimental factors for the generation and processing of a data object. 
 
-## NGS raw data
+## Raw data
 
-[Version 1.0](1.0/ngs_data.md)
+[NGS 1.0](1.0/ngs_data.md)
 
 ## Analytical outputs
 
