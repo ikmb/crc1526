@@ -7,4 +7,6 @@ Metadata defines the types of information that describe the technical and/or exp
 
 [Version 1.0](1.0/ngs_data.md)
 
+## Analytical outputs
 
+[RNAseq 1.0](1.0/analysis_rnaseq.md)
