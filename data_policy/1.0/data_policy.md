@@ -66,7 +66,9 @@ These specifications are based on the EBI MIxS standard (http://www.ebi.ac.uk/en
 
 ### Clinical data
 
-Clinical (patient) data will be managed by the Z1 project and is not covered by this data policy. All digital data subject to this data policy shall be anonymised and must not include metadata directly enabling identification of individuals or allow linking FROM the raw data to patient data. Specifically, no identifying information, such as a patient ID or name, shall be stored.  Connecting clinical data with digital/omics data shall only be possible through the Z1 project - using information about the relationship of probant identities (Z1) and e.g., sequencing library identifiers (INF) or internally agreed-upon pseudonyms.  
+Clinical (patient) data will be managed by the Z1 project and is not covered by this data policy. All digital data subject to this data policy shall be pseudonymized and must not include metadata directly enabling identification of individuals or allow linking 
+FROM the raw 
+data to patient data. Specifically, no identifying information, such as a patient ID or name, shall be stored.  Connecting clinical data with digital/omics data shall only be possible through the Z1 project - using information about the relationship of probant identities (Z1) and e.g., sequencing library identifiers (INF) or internally agreed-upon pseudonyms.  
 
 ## Data types 
  
